@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Signika+Negative:wght@300..700&display=swap");
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.nav-con {
+  padding: 26px 170px;
+  border: 0.5px solid #b8b6b6;
+}
+
+.inner-nav {
+  width: 310px;
+  justify-content: space-between;
+}
+
+.inner-nav a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #292929;
+  font-family: "Signika Negative", sans-serif;
+}
+/* ===========Coverpage================== */
+
+.main-con {
+  padding: 65px 170px;
+}
+
+.main-con h1 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #292929;
+  line-height: 61.9px;
+}
+
+.home-content {
+  gap: 129px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.main-con span {
+  color: #974fd0;
+}
+
+.main-con p {
+  font-size: 20.5px;
+  line-height: 29.57px;
+  font-weight: 400;
+  padding-right: 20px;
+  align-items: start;
+  color: #737171;
+}
+
+.butty {
+  background-color: #974fd0;
+  width: 201px;
+  height: 50px;
+  top: 493px;
+  left: 172px;
+  padding: 10px 25px 10px 25px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+}
+
+.main-con a {
+  text-decoration: none;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+  color: #faf9fb;
+}
+
+/* ==================MyTasks==================== */
+.alltasks-con {
+  padding: 53px 170px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: #974fd0;
+  font-family: Signika Negative;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.anchor span {
+  font-size: 38px;
+  font-weight: 100;
+  text-align: center;
+  align-items: center;
+}
+
+.my-tasks h2 {
+  font-family: Signika Negative;
+  font-size: 50px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.task-content {
+  margin-top: 53px;
+  border: 0.5px solid #b8b6b6;
+  border-radius: 10px;
+}
+
+.task-content hr {
+  margin: 0 12px;
+}
+
+.inner-task-content {
+  margin: 20px 12px;
+}
+
+.task-but a {
+  background-color: #974fd0;
+  gap: 10px;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #faf9fb;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.task-but button {
+  background-color: transparent;
+  gap: 10px;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #974fd0;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  border: 1px solid #974fd0;
+}
+
+.para {
+  font-family: Signika Negative;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.57px;
+  text-align: left;
+  color: #f38383;
+}
+
+.task-detail {
+  margin: 13px 12px;
+}
+
+.task-detail h3 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #292929;
+}
+
+.task-detail p {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.57px;
+  color: #737171;
+}
+.reload {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.reload a {
+  color: #974fd0;
+}
+
+/* ==================NewTasks======================== */
+
+.new-t-con {
+  padding: 65px 170px;
+}
+
+.new-task h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #292929;
+}
+
+.new-t-con form {
+  margin: 84px 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+  gap: 68px;
+}
+
+.title-new label,
+.describe-new label,
+.tag-new h3 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #9c9c9c;
+  top: -23px;
+  background-color: white;
+  left: 50px;
+}
+
+.title-new input,
+.describe-new textarea {
+  border: 1px solid #b8b6b6;
+}
+
+.title-new input::placeholder,
+.describe-new textarea::placeholder {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.tag-new {
+  border: 1px solid #b8b6b6;
+}
+
+.tag-new div p {
+  background-color: #9c9c9c;
+  color: #cccccc;
+  font-family: "Signika Negative", sans-serif;
+  border-radius: 3px;
+}
+
+.tag-new div p {
+  background-color: #9c9c9c;
+  color: #292929;
+  font-family: "Signika Negative", sans-serif;
+  border-radius: 3px;
+}
+
+.new-t-form button {
+  width: Fixed (1, 100px) px;
+  height: Fixed (84px) px;
+  top: 934px;
+  left: 170px;
+  padding: 10px 25px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #974fd0;
+  border: none;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: #faf9fb;
+}
+
+/* .illu {
+  opacity: 1;
+}
+
+.illu.change {
+  opacity: 0;
+} */
+
+/* ==============Edit page================================ */
+.edit-t-con {
+  padding: 65px 170px;
+}
+
+.edit-task h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #292929;
+}
+
+.edit-t-con form {
+  margin: 84px 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: start; */
+  gap: 68px;
+}
+
+.title-edit label,
+.describe-edit label,
+.tag-edit h3 {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #9c9c9c;
+  top: -23px;
+  background-color: white;
+  left: 50px;
+}
+
+.title-edit input,
+.describe-edit textarea {
+  border: 1px solid #b8b6b6;
+}
+
+.title-edit input::placeholder,
+.describe-edit textarea::placeholder {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #cccccc;
+}
+
+.tag-edit {
+  border: 1px solid #b8b6b6;
+}
+
+.tag-edit div p {
+  background-color: #9c9c9c;
+  color: #cccccc;
+  font-family: "Signika Negative", sans-serif;
+  border-radius: 3px;
+}
+
+.tag-edit div p {
+  background-color: #292929;
+  color: #cccccc;
+  font-family: "Signika Negative", sans-serif;
+  border-radius: 3px;
+}
+
+.edit-t-form button {
+  width: Fixed (1, 100px) px;
+  height: Fixed (84px) px;
+  top: 934px;
+  left: 170px;
+  padding: 10px 25px;
+  gap: 10px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #974fd0;
+  border: none;
+  font-family: "Signika Negative", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: #faf9fb;
+}
+
+/* ==============MEDIA- QUERERIES========= */
+@media only screen and (max-width: 500px) {
+  #root {
+    margin: 0 1rem;
+    /* padding: 1rem; */
+  }
+
+  .nav-con {
+    padding: 15px 10px;
+  }
+
+  .inner-nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .inner-nav a {
+    font-size: 18px;
+  }
+
+  .main-con {
+    padding: 30px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .main-con h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .home-content {
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+  }
+
+  .home-text {
+    gap: 10px;
+    align-items: start;
+  }
+
+  .illu {
+    width: 500%;
+    max-width: 300px;
+    align-items: start;
+  }
+
+  .main-con p {
+    font-size: 18px;
+    line-height: 22px;
+    padding-right: 0;
+  }
+
+  .butty {
+    width: 100%;
+    height: auto;
+    padding: 8px 15px;
+    position: relative;
+    top: auto;
+    left: auto;
+    max-width: 150px;
+  }
+
+  .main-con a {
+    font-size: 18px;
+  }
+
+  .alltasks-con {
+    padding: 30px 10px;
+    flex-direction: column;
+  }
+
+  .inner-task-content {
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+  }
+
+  .anchor {
+    font-size: 18px;
+  }
+
+  .anchor span {
+    font-size: 24px;
+  }
+
+  .my-tasks h2 {
+    font-size: 32px;
+  }
+
+  .task-content {
+    margin-top: 30px;
+  }
+
+  .task-but a,
+  .task-but button {
+    font-size: 18px;
+    padding: 8px 15px;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+
+  .task-detail h3 {
+    font-size: 28px;
+  }
+
+  .task-detail p {
+    font-size: 18px;
+  }
+
+  .reload {
+    font-size: 20px;
+  }
+
+  .reload a {
+    font-size: 20px;
+  }
+
+  .new-t-con {
+    padding: 30px 10px;
+    flex-direction: column;
+  }
+
+  .new-task h2 {
+    font-size: 32px;
+  }
+
+  .edit-t-con {
+    padding: 30px 10px;
+    flex-direction: column;
+  }
+
+  .edit-task h2 {
+    font-size: 32px;
+  }
+}
